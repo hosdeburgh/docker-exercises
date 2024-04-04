@@ -1,0 +1,14 @@
+FROM ubuntu-jdk:latest
+
+WORKDIR /opt
+
+COPY . .
+
+RUN useradd -d /opt/nexus -s /bin/bash nexus \
+ && ulimit -n 65536 \
+ && chown -R nexus:nexus /opt/nexus /opt/sonatype-work 
+
+EXPOSE 8081
+
+
+ENTRYPOINT ["/opt/entry.sh"]
