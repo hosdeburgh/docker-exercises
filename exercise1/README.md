@@ -10,7 +10,7 @@ Following steps was done to create nexus image :
 
 4. A folder called nexus was created and **nexus**,**sonatype-work** and **dockerfile** were placed inside this folder
    
-5. finally using this command "**docker build -t nexus .**" the nexus image was created
+5. finally using this command "**docker build -t nexus .**" the nexus image was created.
    The final image can be pulled from docker hub using this command
    **docker pull hosdeburgh2/nexus:latest**
    
