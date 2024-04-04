@@ -78,6 +78,5 @@ function backup_through_tarfile(){
 
 }
 
-del_old_backup_through_commit
 backup_through_commit
 backup_through_tarfile
