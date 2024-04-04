@@ -1,6 +1,6 @@
 Following steps was done to create nexus image :
 
-1.Since installation of openjkd takes a long time, first and image called ubuntu:latest was pulled from docker hub,
+1.Since installation of openjkd takes a long time, first an image called ubuntu:latest was pulled from docker hub,
    openjdk was install on this image and finally an image was created with the name of ubuntu-jdk:latest from this image
    
 2.  The initial installation of Nexus took place on a local virtual machine, with guidance obtained from the following resource :
